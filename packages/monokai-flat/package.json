@@ -1,0 +1,27 @@
+{
+  "name": "monokai-flat",
+  "theme": "syntax",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A monokai theme for the Flat UI Theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnomus/atom-monokai-flat"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "readme": "# Monokai Flat theme\n\nA monokai syntax theme for the Flat UI Theme for Atom.\n\nOriginally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)\ntheme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).\n\n![](https://raw.github.com/gnomus/atom-monokai-flat/master/screen.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gnomus/atom-monokai-flat/issues"
+  },
+  "homepage": "https://github.com/gnomus/atom-monokai-flat",
+  "_id": "monokai-flat@1.0.1",
+  "dist": {
+    "shasum": "96b2c823795e29c5d776745d47c5f1ce2de86e8a"
+  },
+  "_resolved": "/var/folders/t_/rc8_mmfn2qz1tg0_mc7c8ls80000gn/T/d-114220-17735-1fp92z3/package.tgz",
+  "_from": "/var/folders/t_/rc8_mmfn2qz1tg0_mc7c8ls80000gn/T/d-114220-17735-1fp92z3/package.tgz"
+}

@@ -1,0 +1,48 @@
+"*":
+  "exception-reporting":
+    userId: "a0597626-be32-36ab-ca12-72fed8e7dc4d"
+  "release-notes":
+    viewedVersion: "0.94.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "0f745f74349a8325485a2dd633ba86745bbe6066"
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 11
+    showIndentGuide: true
+    preferredLineLength: 150
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "keybinding-resolver"
+    ]
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode":
+    startInInsertMode: true
+  term2:
+    colors: {}
+  "recent-files":
+    updated: false
+  "highlight-line":
+    enableUnderline: true
+  "save-session":
+    project: "/Users/ujiietakuma/testspace/rails_test"
+    windowX: 2
+    windowY: 23
+    windowWidth: 1434
+    windowHeight: 877
+    treeSize: 254
+    dataSaveFolder: "/Users/ujiietakuma/.atom/packages/save-session/projects"
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+".hamlpy.text":
+  editor:
+    preferredLineLength: 150

@@ -1,0 +1,126 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+
+.tree-view {
+
+}
+
+.editor {
+color:#eee;
+}
+
+.editor .cursor {
+  color:blue;
+}
+
+.tree-view .status-modified{
+  color:#3b5998;
+}
+
+
+// custome
+
+.vertical {
+  // パネルを分割するとアクティブになっているパネルがわかりにくいので、非アクティブのパネルは透過
+  .pane {
+    opacity:0.6;
+
+    &.active {
+      opacity: 1.0;
+    }
+  }
+
+  // パネルの境界がわかりにくいのでborderの色を変更
+  .panes .pane-row > *,
+  .panes .pane-column > * {
+    border-right: 1px solid rgba(150, 150, 150, .5);
+  }
+}
+
+.editor {
+
+  .cursor {
+  }
+}
+
+.editor {
+  //http://qiita.com/MOKYN/items/02e3789c35fc81850bbd 参照
+  .line.cursor-line {
+    // カーソル行の背景色
+    background: rgba(0, 37, 253, 0.97);
+  }
+
+  .gutter .line-numbers .line-number {
+    color: #000 !important;
+  }
+
+  .line, .line-number {
+    // カーソル移動するたびにちょっとずれるの防止
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+}
+.editor .line[class*="highlight-line-multi-line-solid-bottom"], :host .line[class*="highlight-line-multi-line-solid-bottom"], atom-text-editor .line[class*="highlight-line-multi-line-solid-bottom"], atom-text-editor::shadow .line[class*="highlight-line-multi-line-solid-bottom"] {
+  // border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  background: rgba(0, 204, 204, .2) !important;
+  // background: rgba(000,000,000, 1) !important;
+}
+
+.list-tree.has-collapsable-children .list-nested-item > .list-tree > li, .list-tree.has-collapsable-children .list-nested-item > .list-group > li {
+  // border-left: 1px dashed rgba(0, 204, 204, .8);
+  border-left: 1px dashed #8fa1b3;
+}
+
+.list-group li:not(.list-nested-item), .list-tree li:not(.list-nested-item), .list-group li.list-nested-item > .list-item, .list-tree li.list-nested-item > .list-item {
+  color: rgba(0, 204, 204, .9) !important;
+  color: #00ffff !important;
+}
+
+.icon-file-directory:after{
+  content: "/";
+  color: #88fb98;
+}
+
+.list-group .icon:before, .list-tree .icon:before {
+  // color: rgba(255, 255, 255, .9);
+  color: #ccc;
+}
+
+.panes .pane{
+  background-color: #2b303b !important;
+}
+
+.tree-view{
+  background: #2b303b;
+  border-right: 1px solid rgba(255, 255, 255, .5);
+}
+
+.icon-file-text{
+  color: white;
+  font-weight: normal;
+}
+
+.tree-view-resize-handle{
+  border-left: 1px dashed rgba(255, 255, 255,.5);
+}
+
+.tab-bar{
+  padding-bottom: 0em;
+  border-bottom: 1px solid rgba(255, 255, 255,.5);
+}
+
+.term2 .terminal{
+  font-size: 11px;
+}
+
+.editor .indent-guide {
+  border-left: 1px dashed rgba(0, 204, 204, 0.5) !important;
+}

@@ -1,0 +1,25 @@
+'rails_test':
+  'title': 'rails_test'
+  'paths': [
+    '/Users/ujiietakuma/testspace/rails_test'
+  ]
+'RunRigCRM':
+  'title': 'RunRigCRM'
+  'paths': [
+    '/Users/ujiietakuma/workspace/fookyzdev/RunRigCRM'
+  ]
+'awesome_events':
+  'title': 'awesome_events'
+  'paths': [
+    '/Users/ujiietakuma/workspace/awesome_events'
+  ]
+'adshu2016':
+  'title': 'adshu2016'
+  'paths': [
+    '/Users/ujiietakuma/workspace/fookyzdev/adshu2016'
+  ]
+'polymer':
+  'title': 'polymer'
+  'paths': [
+    '/Users/ujiietakuma/workspace/polymer'
+  ]

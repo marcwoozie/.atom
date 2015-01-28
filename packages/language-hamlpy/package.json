@@ -1,0 +1,26 @@
+{
+  "name": "language-hamlpy",
+  "version": "1.0.1",
+  "description": "Hamlpy support for Github's Atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nivl/atom-language-hamlpy"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# language-hamlpy package\n\n[Hamlpy](https://github.com/jessemiller/HamlPy) support for Github's Atom\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Nivl/atom-language-hamlpy/issues"
+  },
+  "homepage": "https://github.com/Nivl/atom-language-hamlpy",
+  "_id": "language-hamlpy@1.0.1",
+  "dist": {
+    "shasum": "fd040217ee0144e9fd57e0b0fc40e69aceddcb04"
+  },
+  "_resolved": "/private/var/folders/t_/rc8_mmfn2qz1tg0_mc7c8ls80000gn/T/d-114824-4621-4pxfr5/package.tgz",
+  "_from": "/private/var/folders/t_/rc8_mmfn2qz1tg0_mc7c8ls80000gn/T/d-114824-4621-4pxfr5/package.tgz"
+}

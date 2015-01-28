@@ -1,0 +1,34 @@
+{
+  "name": "jellybeans",
+  "theme": "syntax",
+  "version": "1.3.0",
+  "description": "Jellybeans.vim like syntax theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javaguirre/atom-jellybeans"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# Jellybeans theme\n\nJellybeans theme for Atom, based on [Jellybeans for vim][jellybeans.vim]\n\n![A screenshot of your theme](https://cloud.githubusercontent.com/assets/488556/5557253/85ab2dec-8cf6-11e4-8392-88270b63d9bf.png)\n\n[jellybeans.vim]: https://github.com/nanotech/jellybeans.vim\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/javaguirre/atom-jellybeans/issues"
+  },
+  "homepage": "https://github.com/javaguirre/atom-jellybeans",
+  "_id": "jellybeans@1.3.0",
+  "_shasum": "5fe91083a2182920dc028c6ce33aa085f7e42606",
+  "_resolved": "file:../d-115025-18064-1l4qizh/package.tgz",
+  "_from": "../d-115025-18064-1l4qizh/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
